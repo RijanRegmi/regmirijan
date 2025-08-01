@@ -1,0 +1,75 @@
+.upload-or-scan {
+  min-height: 100vh;
+  background-color: #04002A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logo {
+  background-color: #001EFF;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 16px 32px;
+  border-radius: 8px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .options {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.card {
+  background-color: #D1C8C8;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-title {
+  background-color: #001EFF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 16px 32px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.try-both {
+  background-color: #001EFF;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
