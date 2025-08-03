@@ -1,0 +1,101 @@
+
+footer .col img{
+    width: 22%;
+    border-radius: 30px;
+  }
+
+
+  footer{
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  
+  
+  footer .logo{
+    margin-bottom: 30px;
+  }
+  
+  footer h4{
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  footer p{
+    font-size: 15px;
+    margin:  0 0 8px 0;
+  }
+  footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  footer .follow{
+    margin-top: 20px;
+  }
+  footer .follow i{
+    color: #465b52;
+    padding-right:  4px;
+    cursor: pointer;
+  }
+  
+  footer .row img{
+    width: 48%;
+    border-radius: 50px;
+  }
+  
+  
+  footer .follow i:hover,
+  footer a:hover{
+      color: rgb(131, 189, 98);
+  }
+  
+  footer .copyright{
+      width: 100%;
+      text-align: center;
+  } 
+  
+  @media screen and (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .col {
+      flex: 1 1 100%; /* Full width for each column */
+      margin: 10px 0;
+      align-items: center; /* Center content for small screens */
+    }
+  
+    footer .col img {
+      width: 30%; /* Adjust image size for smaller screens */
+    }
+  
+    footer .follow {
+      text-align: center; /* Center align the social media icons */
+    }
+  
+    footer .follow i {
+      font-size: 20px; /* Slightly larger icons for better visibility */
+    }
+  
+    footer .row img {
+      width: 80%; /* Make images larger on small screens */
+      margin-bottom: 10px;
+    }
+  
+    footer .copyright {
+      font-size: 12px; /* Slightly smaller font for compact layout */
+    }
+  }
