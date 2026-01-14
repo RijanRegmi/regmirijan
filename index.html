@@ -1,15 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="src/assets/TazaNewsNobg.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StyleMate</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./src/Components/main.jsx"></script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Marry Me ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <div class="heart-rain"></div>
+  <canvas id="confetti"></canvas>
+
+  <div class="container">
+    <h1 class="title">My Lotus ❤️</h1>
+
+    <p class="message">
+      I love you so much and want to spend the rest of my life with you.
+    </p>
+
+    <h2 class="question">Will you marry me?</h2>
+
+    <div class="buttons">
+      <button class="yes" onclick="sayYes()">Yes 💍</button>
+      <button class="no" id="noBtn">No 🙈</button>
+    </div>
+
+    <h2 id="response"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
