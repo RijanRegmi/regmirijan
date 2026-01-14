@@ -11,7 +11,6 @@ window.addEventListener("resize", () => {
   canvas.height = window.innerHeight;
 });
 
-/* No button dodge */
 noBtn.addEventListener("mouseover", () => {
   const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
   const y = Math.random() * (window.innerHeight - noBtn.offsetHeight);
@@ -20,7 +19,6 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = `${y}px`;
 });
 
-/* Confetti */
 let confettiPieces = [];
 
 function createConfetti() {
